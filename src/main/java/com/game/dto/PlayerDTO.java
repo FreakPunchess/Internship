@@ -72,4 +72,17 @@ public class PlayerDTO {
     public void setBanned(Boolean banned) {
         this.banned = banned;
     }
+
+    @Override
+    public String toString() {
+        return "PlayerDTO{" +
+                "name='" + name + '\'' +
+                ", title='" + title + '\'' +
+                ", race=" + race +
+                ", profession=" + profession +
+                ", experience=" + experience +
+                ", birthday=" + birthday +
+                ", banned=" + banned +
+                '}';
+    }
 }

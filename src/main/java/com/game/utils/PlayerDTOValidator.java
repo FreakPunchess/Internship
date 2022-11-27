@@ -9,7 +9,7 @@ import org.springframework.validation.Validator;
 import java.util.Date;
 
 @Component
-public class PlayerValidator implements Validator {
+public class PlayerDTOValidator implements Validator {
     @Override
     public boolean supports(Class<?> clazz) {
         return PlayerDTO.class.equals(clazz);
